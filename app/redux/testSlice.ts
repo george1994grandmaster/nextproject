@@ -6,6 +6,8 @@ interface DataItem {
   id: number;
   title: string;
   src: string;
+  category: string;
+  price: string;
 }
 
 interface DataState {
@@ -44,6 +46,7 @@ const dataSlice = createSlice({
       .addCase(fetchDatas.fulfilled, (state, action: PayloadAction<DataItem[]>) => {
         state.status = 'succeeded';
         state.data = action.payload;
+        
         state.error = null;
       })
       .addCase(fetchDatas.rejected, (state) => {

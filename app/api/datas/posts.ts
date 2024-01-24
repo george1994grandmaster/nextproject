@@ -14,26 +14,54 @@ export const posts = [
     ],
   },
   {
-    laptops: [
+    productsMenu: [
       {
         id: 1,
-        title: "Predator",
-        src: "/images/bmw.png"
+        title: "predator",
       },
       {
         id: 2,
-        title: "Apple",
-        src: "/images/bmw1.png"
+        title: "apple",
       },
       {
         id: 3,
-        title: "Acer",
-        src: "/images/bmw2.png"
+        title: "acer",
       },
       {
         id: 4,
-        title: "Hp",
-        src: "/images/bmw3.png"
+        title: "hp",
+      },
+    ],
+  },
+  {
+    laptops: [
+      {
+        id: 1,
+        title: "predator",
+        category: "predator",
+        src: "/images/bmw.png",
+        price: "2,789",
+      },
+      {
+        id: 2,
+        title: "apple",
+        category: "apple",
+        src: "/images/dec.png",
+        price: "1,879",
+      },
+      {
+        id: 3,
+        title: "acer",
+        category: "predator",
+        src: "/images/bmw2.png",
+        price: "4,768",
+      },
+      {
+        id: 4,
+        title: "hp",
+        category: "hp",
+        src: "/images/bmw3.png",
+        price: "5,362",
       },
     ],
   },
